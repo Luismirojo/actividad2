@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <link rel="stylesheet" href="viajes.css">
+    <script src="viajes.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="bienvenida">Bienvenid@ a nuestra agencia de viajes</h1>
+        <div id="nombreUsuarioContainer">
+            <label for="nombre">Introduce tu nombre: </label>
+            <input type="text" id="nombre" placeholder="Tu nombre...">
+            <button id="btnAceptar">Aceptar</button>
+        </div>
+    </header>
+
+    <main id="contenido" class="oculto">
+        <section id="carrusel">
+            <img id="imagenDestino" src="" alt="Destino turístico">
+            <h2 id="nombreDestino"></h2>
+            <p id="precioDestino"></p>
+            <p id="contadorDestino"></p>
+
+            <div class="botones">
+                <button id="anterior">Anterior</button>
+                <button id="siguiente">Siguiente</button>
+            </div>
+        </section>
+
+        <section id="resultadoSorteo"></section>
+    </main>
+</body>
+</html>

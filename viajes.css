@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+}
+
+#carrusel {
+    margin-top: 30px;
+}
+
+#imagenDestino {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.botones button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #00b4d8;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    background-color: #0096c7;
+}
+
+#resultadoSorteo {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.oculto {
+    display: none;
+}
